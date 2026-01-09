@@ -39,7 +39,11 @@
                 <div class="subtitle-layout">
                     <a class="subtitle" href="">最近流行</a>
                     <a href="">全部</a>
-            </div>
+                </div>
+
+                <div>
+                    <img src="/static/1/4.png" alt="">
+                </div>
 
             </div>
 
@@ -52,7 +56,33 @@
                     <a href="">微博登录</a>
                 </div>
             </div>
+            <div class="body-right-mid">
+                <div>
+                    <a href="">流行搜索</a>
+                </div>
+                <div>
+                    <ol>
+                        <li><a href="">家常菜</a></li>
+                        <li><a href="">可乐鸡翅</a></li>
+                        <li><a href="">红烧肉</a></li>
+                        <li><a href="早餐"></a></li>
+                        <li><a href="">排骨</a></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="body-right-down">
+                <div class="subtitle-layout">
+                    <a class="subtitle" href="">新秀菜谱</a>
+                    <a href="">全部</a>
+                </div>
+                <div>
+                    <img src="/static/1/3.png" alt="">
+                
+                </div>
+            </div>
         </div>
+
+
     </div>
 
     <div></div>
@@ -134,6 +164,9 @@
     }
     .body-right{
         width: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
         
     }
     .body-right-top{
@@ -150,6 +183,32 @@
         align-items: center;
         gap: 20px;
     }
+    .body-right-mid{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .body-right-mid ol{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .body-right-down{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .body-mid-down{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .body-mid-down img{
+        width: 150px;      /* 想多小就写多小 */
+        height: auto; 
+        
+    }
+
 </style>
 
 <script setup>
